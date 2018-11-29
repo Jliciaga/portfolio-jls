@@ -4,7 +4,7 @@ const express = require('express');
 const cors = require('cors');
 const helmet = require('helmet');
 const path = require('path');
-const publicPath = path.join(__dirname, '../build');
+const publicPath = path.join(__dirname, '../client/build');
 
 const app = express();
 
