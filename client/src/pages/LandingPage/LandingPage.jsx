@@ -8,7 +8,7 @@ import './style.scss';
 
 const staticText = ['I like... <p>'];
 const staticEnd = ['</p>'];
-const words = ['coding.', 'exploring.', 'blogging.', 'gaming.', 'paintball.', 'math?', 'one punch man', 'UX / UI', 'reading' ];
+const words = ['coding', 'exploring', 'blogging', 'gaming', 'paintball', 'machine learning', 'blockchain', 'math?', 'one punch man', 'UX / UI', 'reading' ];
 
 const LandingPage = (props) => (
     <div className="landing-page">
