@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Parallax from './components/Background/Parallax';
 import LandingPage from './pages/LandingPage/LandingPage';
 import AboutPage from './pages/AboutPage/AboutPage';
 import SkillsPage from './pages/SkillsPage/SkillsPage';
@@ -27,6 +28,7 @@ export default class App extends Component {
   render() {
     return (
       <div className="dev-landing-page">
+          <Parallax />
           <LandingPage />
           <AboutPage />
           <SkillsPage />
