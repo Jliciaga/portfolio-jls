@@ -6,6 +6,7 @@
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "start:server": "node scripts/build.js && node server/server.js",
+    "deploy": "node scripts/build.js && forever stopall && forever start server/server.js >> /var/log/forever/forever.log",
     "test": "node scripts/test.js"
   },
   "dependencies": {
