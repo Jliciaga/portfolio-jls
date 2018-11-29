@@ -22,7 +22,7 @@ export default class TypeWriter extends Component {
     }
   
     type = () => {
-      const { wordIndex, isDeleting, text, wait } = this.state
+      const { wordIndex, isDeleting, text } = this.state
       const currentIndex = wordIndex % this.props.words.length
       const currentWord = this.props.words[currentIndex]
   
@@ -75,7 +75,4 @@ export default class TypeWriter extends Component {
         </div>
       )
     }
-  }
-  
-  const staticText = [`Hello, I'm Bruna.`, 'I like']
-  const words = ['cats', 'coffee', 'fashion', 'coding', 'skating', 'music']
+  };

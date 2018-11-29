@@ -23,7 +23,7 @@ const Parallax = () => (
         }}
         style={{
             position: 'fixed',
-            zIndex: -1
+            zIndex: -5
         }} />
 )
 

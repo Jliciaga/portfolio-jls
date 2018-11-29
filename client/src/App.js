@@ -35,7 +35,6 @@ export default class App extends Component {
           <PortfolioPage />
           <ContactPage />
           <Footer />
-        {/* </ThemeSwitcher> */}
       </div>
     );
   }
