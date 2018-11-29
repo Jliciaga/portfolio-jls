@@ -23,8 +23,8 @@ export default [{
               <li>Webpack</li>
             </ul>
             <ul>
-              <li className="external-link"><a href="https://github.com/Jliciaga/mcgonagall"><i className="fab fa-github"></i></a></li>
-              <li className="external-link"><a href="https://budgetlife.herokuapp.com/"><i className="fas fa-external-link-alt"></i></a></li>
+              <li className="external-link"><a aria-label="github budgetlife" href="https://github.com/Jliciaga/mcgonagall"><i className="fab fa-github"></i></a></li>
+              <li className="external-link"><a aria-label="website budgetlife" href="https://budgetlife.herokuapp.com/"><i className="fas fa-external-link-alt"></i></a></li>
             </ul>
           </div>
         </div>  
@@ -53,8 +53,8 @@ export default [{
               <li>WebPack</li>
             </ul>
             <ul>
-              <li className="external-link"><a href="https://github.com/Jliciaga/Pop-Up-Games"><i className="fab fa-github"></i></a></li>
-              <li className="external-link"><a href="https://pop-up-games.herokuapp.com/"><i className="fas fa-external-link-alt"></i></a></li>
+              <li className="external-link"><a aria-label="github popup games" href="https://github.com/Jliciaga/Pop-Up-Games"><i className="fab fa-github"></i></a></li>
+              <li className="external-link"><a aria-label="website popup games" href="https://pop-up-games.herokuapp.com/"><i className="fas fa-external-link-alt"></i></a></li>
             </ul>
           </div>
         </div>  
@@ -83,8 +83,8 @@ export default [{
               <li>Webpack</li>
             </ul>
             <ul>
-              <li className="external-link"><a href="https://github.com/Jliciaga/disastertracker"><i className="fab fa-github"></i></a></li>
-              <li className="external-link"><a href="https://thesis-storm-tracker.herokuapp.com/"><i className="fas fa-external-link-alt"></i></a></li>
+              <li className="external-link"><a aria-label="github storm traker" href="https://github.com/Jliciaga/disastertracker"><i className="fab fa-github"></i></a></li>
+              <li className="external-link"><a aria-label="website storm tracker" href="https://thesis-storm-tracker.herokuapp.com/"><i className="fas fa-external-link-alt"></i></a></li>
             </ul>
           </div>
         </div>  
@@ -113,8 +113,8 @@ export default [{
               <li>PostgreQL</li>
             </ul>
             <ul>
-              <li className="external-link"><a href="https://github.com/Jliciaga/seekerapp"><i className="fab fa-github"></i></a></li>
-              <li className="external-link"><a href="http://seekerapp.herokuapp.com"><i className="fas fa-external-link-alt"></i></a></li>
+              <li className="external-link"><a aria-label="github quest" href="https://github.com/Jliciaga/seekerapp"><i className="fab fa-github"></i></a></li>
+              <li className="external-link"><a aria-label="website quest" href="http://seekerapp.herokuapp.com"><i className="fas fa-external-link-alt"></i></a></li>
             </ul>
           </div>
         </div>  

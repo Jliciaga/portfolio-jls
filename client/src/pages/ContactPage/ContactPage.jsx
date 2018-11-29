@@ -1,6 +1,4 @@
 import React from 'react';
-import ScrollToNext from '../../components/ScrollToNext/ScrollToNext';
-
 import './style.scss';
 
 const ContactPage = (props) => {
@@ -16,8 +14,8 @@ const ContactPage = (props) => {
             <p>
                Thanks for coming!
             </p>
-            <a href="mailto:josiah.liciaga@gmail.com" class="button">
-                <span class="away">Say Hello</span>
+            <a aria-label="email" href="mailto:josiah.liciaga@gmail.com" className="button">
+                <span className="away">Say Hello</span>
             </a>
           </div>
         </div>

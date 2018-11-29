@@ -1,7 +1,7 @@
 {
-  "main.css": "/static/css/main.fe122d5c.chunk.css",
-  "main.js": "/static/js/main.ccd3c479.chunk.js",
-  "main.js.map": "/static/js/main.ccd3c479.chunk.js.map",
+  "main.css": "/static/css/main.26a68b4e.chunk.css",
+  "main.js": "/static/js/main.861d2dd2.chunk.js",
+  "main.js.map": "/static/js/main.861d2dd2.chunk.js.map",
   "static/js/1.0e5612d0.chunk.js": "/static/js/1.0e5612d0.chunk.js",
   "static/js/1.0e5612d0.chunk.js.map": "/static/js/1.0e5612d0.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
@@ -10,8 +10,8 @@
   "static/media/weather.webP": "/static/media/weather.f7b1bb6d.webP",
   "static/media/quest.webP": "/static/media/quest.8ec6a54f.webP",
   "static/media/popupgames.webP": "/static/media/popupgames.ec47c454.webP",
-  "static/css/main.fe122d5c.chunk.css.map": "/static/css/main.fe122d5c.chunk.css.map",
+  "static/css/main.26a68b4e.chunk.css.map": "/static/css/main.26a68b4e.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.26df4d439b5944e9780c3e0cc02635db.js": "/precache-manifest.26df4d439b5944e9780c3e0cc02635db.js",
+  "precache-manifest.8e5d239b92bc92b42ebfc8d52b003276.js": "/precache-manifest.8e5d239b92bc92b42ebfc8d52b003276.js",
   "service-worker.js": "/service-worker.js"
 }

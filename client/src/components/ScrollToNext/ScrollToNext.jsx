@@ -1,6 +1,5 @@
 
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
 import { toElement as scrollToElement } from './../../utils/scroll';
 
 import './style.scss';
@@ -17,7 +16,7 @@ export default class ScrollToNext extends Component {
     return (
       <div className="scroll-to-next" onClick={(e) => this.scrollToNext()}>
         <div className="arrow bounce" >
-          <button className="fas fa-chevron-down fa-2x" href="#" />
+          <button className="fas fa-chevron-down fa-2x" href="#" aria-label="scroll to next element" />
         </div>
       </div>
     );
