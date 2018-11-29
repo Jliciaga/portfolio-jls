@@ -64,6 +64,7 @@ export default class TypeWriter extends Component {
   
     render() {
       const { staticText } = this.props
+      const { staticEnd } = this.props
       const { text, isWaiting } = this.state
   
       return (
@@ -72,6 +73,9 @@ export default class TypeWriter extends Component {
           <span key={ index } className={`sentence ${(index === staticText.length - 1) ? 'last-sentence' : '' }`}>{ sentence }&nbsp;</span>
         ))}
           <span className={`dynamic-text ${ isWaiting ? 'fade' : '' }`}>{text}</span>
+          { staticEnd.map((sentence, index) => (
+          <span key={ index } className={`sentenceEnd ${(index === staticText.length - 1) ? 'last-sentence' : '' }`}>{ sentence }&nbsp;</span>
+        ))}
         </div>
       )
     }

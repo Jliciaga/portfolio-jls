@@ -6,8 +6,9 @@ import ScrollToNext from './../../components/ScrollToNext/ScrollToNext';
 
 import './style.scss';
 
-const staticText = ['I like... '];
-const words = ['coding.', 'exploring.', 'blogging.', 'gaming.', 'paintball.'];
+const staticText = ['I like... <p>'];
+const staticEnd = ['</p>'];
+const words = ['coding.', 'exploring.', 'blogging.', 'gaming.', 'paintball.', 'math?', 'one punch man', 'UX / UI', 'reading' ];
 
 const LandingPage = (props) => (
     <div className="landing-page">
@@ -18,7 +19,7 @@ const LandingPage = (props) => (
             <div className="tagline">
               FullStack Software Engineer
             </div>
-            <Typewritter staticText={staticText} words={words} />
+            <Typewritter staticText={staticText} words={words} staticEnd={staticEnd} />
           </div>
         </main>
       <ScrollToNext pageSelector=".about-page" />
