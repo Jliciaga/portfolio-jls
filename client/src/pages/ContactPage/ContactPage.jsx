@@ -9,7 +9,7 @@ const ContactPage = (props) => {
         <div className="contact-wrapper">
           <div className="contact-content">
             <p>
-                Well that's a wrap, like what you saw, looking to build something cool or just want to talk tech? Shoot me an email, I try my hardest to keep tabs on it.
+                Well that's a wrap, like what you saw, looking to build something cool with me or just want to talk tech? Shoot me an email.
             </p>
             <p>
                Thanks for coming!
