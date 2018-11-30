@@ -67,7 +67,7 @@ h2 {
     list-style: none;
 }
 
-.skills-bar-container li {
+.skills-bar-container .progress {
     background: #666666;
     position: relative;
     width: 100%;
