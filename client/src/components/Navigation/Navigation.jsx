@@ -42,7 +42,7 @@ export default class Navigation extends Component {
 
     handleChange(e) {
       if(window.scrollY > 100) {
-        this.setState({ color: 'black' })
+        this.setState({ color: 'rgba(0, 0, 0, 0.75)' })
       } else {
         this.setState({ color: 'transparent' })
       }
