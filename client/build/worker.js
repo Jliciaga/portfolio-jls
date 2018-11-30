@@ -30,7 +30,7 @@ self.addEventListener('install', function(event) {
               // We could also cache assets like CSS and images
               const urlsToCache = [
                 '/',
-                assets['main.js']
+                assets['build.js']
               ];
               cache.addAll(urlsToCache);
             })
