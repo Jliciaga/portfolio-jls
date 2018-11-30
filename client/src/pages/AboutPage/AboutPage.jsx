@@ -1,6 +1,6 @@
 import React from 'react';
 import ScrollToNext from '../../components/ScrollToNext/ScrollToNext';
-
+import Profile from '../../style/images/profile.webP';
 import './style.scss';
 
 const AboutPage = (props) => {
@@ -16,6 +16,9 @@ const AboutPage = (props) => {
             <p>
               I am fully bilingual (English/Spanish) as I lived my childhood through my early teens in Cabo Rojo, Puerto Rico before moving to the state of Florida.
             </p>
+            <div className="profile-img">
+              <img src={ Profile } alt="" />
+            </div>
             <p>
               Before switching to the Software Engineering field, I worked for many years as the lead Radiologic Technologist at Florida Hospital. Here I led a team of over 20 successful technologists.
             </p>
@@ -37,6 +40,10 @@ const AboutPage = (props) => {
             <p>
               Best Regards,<br/>
                 Josiah Liciaga-Silva
+            </p>
+            <p style={{textAlign:'right'}}>
+              * Tech.co technology news<br/>
+              ** CourseReport.com
             </p>
           </div>
         </div>
