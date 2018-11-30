@@ -13,7 +13,7 @@ export default [{
           <div className="project-label">Featured</div>
           <h4 className="project-title">BudgetLife</h4>
           <div className="project-details">
-            <p>Search through thousands of recipes without having to worry about any dangerous allergens with this powerful app</p>
+            <p>Search through thousands of recipes without having to worry about any dangerous food allergies with this powerful app</p>
             <p>Discover the many different cooking styles and recipes the world has to offer with this powerful app</p>
             <ul>
               <li>ReactJS</li>
