@@ -207,6 +207,7 @@
       You need to enable JavaScript to run this app.
     </noscript>
 
+  <!-- Preload Screen -->
     <div class="ipl-progress-indicator" id="ipl-progress-indicator">
         <div class="ipl-progress-indicator-head">
           <div class="first-indicator"></div>
@@ -305,30 +306,13 @@
             -19 50 0 5 -30 76 -66 158 -36 83 -73 167 -82 188 -8 20 -18 37 -22 37 -3 0
             -37 65 -75 145 -46 97 -74 145 -84 145 -9 0 -35 -10 -59 -21z"/>
             </g>
-</svg>
+          </svg>
         </div>
       </div>
+  <!--End Preload Screen -->
   
   <!--REACT root-->
     <div id="root"></div>
-
-  <!-- Service Workers -->
-    <!-- <script>
-        if ('serviceWorker' in navigator) {
-          window.addEventListener('load', function() {
-            navigator.serviceWorker.register('worker.js').then(function(registration) {
-              console.log('Worker registration successful', registration.scope);
-            }, function(err) {
-              console.log('Worker registration failed', err);
-            }).catch(function(err) {
-              console.log(err);
-            });
-          });
-        } else {
-          console.log('Service Worker is not supported by browser.');
-        }
-      </script> -->
-  <!-- End Service Workers -->
-
+  <!--End REACT root-->
   </body>
 </html>
