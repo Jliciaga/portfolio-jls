@@ -14,9 +14,6 @@ const AboutPage = (props) => {
               Hello! My name is Josiah Liciaga Silva - FullStack Software Engineer. <strong>Welcome </strong>to my portfolio!
             </p>
             <p>
-              I have been working as a software engineer since late 2015, am currently looking for a full-time position with a great company!
-            </p>
-            <p>
               I am fully bilingual (English/Spanish) as I lived my childhood through my early teens in Cabo Rojo, Puerto Rico before moving to the state of Florida.
             </p>
             <p>
@@ -29,10 +26,7 @@ const AboutPage = (props) => {
               I am passionate about software engineering and the creative aspect that coding requires. The process of creating a new technology from scratch or solving complicated problems has led me to create many advanced applications with real-world use. This website was built from scratch, and I always keep up-to-date with technology as it evolves.
             </p>
             <p>
-              I specialize and do most of my work using JavaScript and its libraries/frameworks. Mainly using a MERN (MongoDB, ExpressJS, ReactJs and NodeJs) as my preferred stack, and it allows me to create applications quickly.
-            </p>
-            <p>
-              I also have a lot of experience using AngularJS, Redux and WordPress, and the languages Python and C#. My favorites currently are blockchain and machine learning - I believe they are the future of software engineering.
+              I specialize and do most of my work using JavaScript and its libraries/frameworks. Mainly using a MERN (MongoDB, ExpressJS, ReactJs and NodeJs) as my preferred stack, and it allows me to create applications quickly. I also have a lot of experience using AngularJS, Redux and WordPress, and the languages Python and C#. My favorites currently are blockchain and machine learning - I believe they are the future of software engineering.
             </p>
             <p>
               I am looking for a great company with a diverse and distributed team where new and innovative ideas are appreciated. I enjoy being challenged and understand that continuing to learn new languages and development techniques are important to me and the success of your organization. I also consider myself a fun and collaborative teammate to work with! My hobbies outside of work include paintballing competitively, jiu-jitsu, and spinning fire knife. (Yes, real knives with fire on each end!)
