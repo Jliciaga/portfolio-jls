@@ -134,10 +134,10 @@ export default [{
             <span className="progressbar progressblue" id="progress-heroku"></span>
           </li>
           <li>
-            <span className="percent"></span>
+            <label>Docker</label>
           </li>
           <li className="progress">
-            <label>Docker</label>
+            <span className="percent"></span>
             <span className="progressbar progressblue" id="progress-docker"></span>
           </li>
         </ul>
@@ -167,10 +167,10 @@ export default [{
           </li>
 
           <li>
-            <span className="percent"></span>
+            <label>PostgreQL</label>
           </li>
           <li className="progress">
-            <label>PostgreQL</label>
+            <span className="percent"></span>
             <span className="progressbar progressblue" id="progress-postgreql"></span>
           </li>
         </ul>
