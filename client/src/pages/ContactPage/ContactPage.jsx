@@ -1,5 +1,6 @@
 import React from 'react';
 import './style.scss';
+import Resume from '../../style/images/JosiahResume.pdf';
 
 const ContactPage = (props) => {
   return (
@@ -16,6 +17,9 @@ const ContactPage = (props) => {
             </p>
             <a aria-label="email" href="mailto:josiah.liciaga@gmail.com" className="button">
                 <span className="away">Say Hello</span>
+            </a>
+            <a aria-label="resume download" href={ Resume } className="button" download>
+                <span className="away_resume">Download Resume</span>
             </a>
           </div>
         </div>
