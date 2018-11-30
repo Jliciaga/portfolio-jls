@@ -18,8 +18,8 @@ export default [{
           <li>
             <label>JavaScript</label>
           </li>
-          <span className="percent"></span>
           <li className="progress">
+            <span className="percent"></span>
             <span className="progressbar progressblue" id="progress-javascript"></span>
           </li>
 
