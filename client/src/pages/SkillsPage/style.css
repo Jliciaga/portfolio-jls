@@ -45,11 +45,6 @@
     float: right;
 }
 
-body {
-    background: #333;
-    font-family: 'Raleway', sans-serif;
-}
-
 h1 {
     color: #fff;
     margin-left: 0px;
@@ -245,7 +240,7 @@ h2 {
         width: 0%;
     }
     100% {
-        width: 45%;
+        width: 5%;
     }
 }
 

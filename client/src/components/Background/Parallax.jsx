@@ -1,6 +1,5 @@
 import React from 'react';
 import Particles from 'react-particles-js';
-import './style.scss';
 
 const Parallax = () => (
         <Particles  params={{
