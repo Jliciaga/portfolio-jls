@@ -89,7 +89,7 @@ export default [{
           </div>
         </div>  
         <div className="project-img">
-          <img src={ storm } alt="" />
+          <img className="image" src={ storm } alt="" />
         </div>
       </div>
     </div>
