@@ -1,8 +1,8 @@
 import React from 'react';
-import budget from '../../style/images/budgetlife.webP';
-import games from '../../style/images/popupgames.webP';
-import storm from '../../style/images/weather.webP';
-import quest from '../../style/images/quest.webP';
+import budget from '../../style/images/Mbudgetlife.webP';
+import games from '../../style/images/Mpopupgames.webP';
+import storm from '../../style/images/Mweather.webP';
+import quest from '../../style/images/Mquest.webP';
 
 export default [{
   name: 'BudgetLife',
@@ -50,7 +50,7 @@ export default [{
               <li>NodeJS</li>
               <li>ExpressJS</li>
               <li>mySQL</li>
-              <li>WebPack</li>
+              <li>Webpack</li>
             </ul>
             <ul>
               <li className="external-link"><a aria-label="github popup games" href="https://github.com/Jliciaga/Pop-Up-Games"><i className="fab fa-github"></i></a></li>

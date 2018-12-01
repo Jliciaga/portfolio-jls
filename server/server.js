@@ -7,7 +7,6 @@ const path = require('path');
 const publicPath = path.join(__dirname, '../client/build');
 const compression = require('compression');
 
-
 const app = express();
 
 app.use(cors());

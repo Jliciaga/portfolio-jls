@@ -39,6 +39,7 @@
     "file-loader": "2.0.0",
     "fork-ts-checker-webpack-plugin-alt": "0.4.14",
     "fs-extra": "7.0.0",
+    "gulp": "^3.9.1",
     "helmet": "^3.15.0",
     "html-webpack-plugin": "4.0.0-alpha.2",
     "identity-obj-proxy": "3.0.0",
@@ -67,9 +68,12 @@
   },
   "devDependencies": {
     "compress": "^0.99.0",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-responsive": "^2.11.0",
     "node-sass": "^4.10.0",
     "react-particles-js": "^2.4.2",
-    "sass-loader": "^7.1.0"
+    "sass-loader": "^7.1.0",
+    "sharp": "^0.21.0"
   },
   "eslintConfig": {
     "extends": "react-app"
