@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { toElement as scrollToElement } from '../../utils/scroll';
 
-import './style.css';
+import './style.scss';
 
 export default class Navigation extends Component {
     constructor(props) {

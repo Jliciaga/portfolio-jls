@@ -3,7 +3,7 @@ import PortfolioItem from '../../components/PortfolioItem/PortfolioItem';
 import ScrollToNext from '../../components/ScrollToNext/ScrollToNext';
 import skillItems from './skill-items';
 
-import './style.css';
+import './style.scss';
 
 const SkillsPage = (props) => {
   return (

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { toElement as scrollToElement } from '../../utils/scroll';
 
-import './style.css';
+import './style.scss';
 
 class ScrollToPrevious extends Component {
   scrollToPrevious() {

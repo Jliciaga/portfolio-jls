@@ -1,6 +1,6 @@
 import React from 'react';
 import ScrollTop from '../ScrollTop/ScrollTop';
-import './style.css';
+import './style.scss';
 
 const Footer = () => (
     <section id="lab_social_icon_footer">

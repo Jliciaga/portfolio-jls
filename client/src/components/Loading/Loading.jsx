@@ -1,6 +1,7 @@
-import React, { Component } from 'react';
-import Logo from '../../style/images/logo.svg';
-import './style.css';
+import React, { Component, lazy, Suspense } from 'react';
+import './style.scss';
+const Logo = lazy(() => import('../../style/images/logo.svg'))
+// import Logo from '../../style/images/logo.svg';
 
 export default class Loading extends Component {
     constructor(props) {
@@ -11,13 +12,15 @@ export default class Loading extends Component {
     render() {
         return (
             <div>
-                <div class="ipl-progress-indicator" id="ipl-progress-indicator">
-                    <div class="ipl-progress-indicator-head">
-                    <div class="first-indicator"></div>
-                    <div class="second-indicator"></div>
+                <div className="ipl-progress-indicator" id="ipl-progress-indicator">
+                    <div className="ipl-progress-indicator-head">
+                    <div className="first-indicator"></div>
+                    <div className="second-indicator"></div>
                     </div>
-                    <div class="insp-logo-frame">
-                        <img iclass="insp-logo-frame-img" src="logo.svg" alt="preloader logo" />
+                    <div className="insp-logo-frame">
+                        <Suspense>
+                            <img iclass="insp-logo-frame-img" src={ Logo } alt="preloader logo" />
+                        </Suspense>
                     </div>
                 </div>
             </div>

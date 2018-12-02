@@ -1,7 +1,6 @@
 import React, { Component, lazy, Suspense } from 'react';
 import Parallax from './components/Background/Parallax';
 import LandingPage from './pages/LandingPage/LandingPage';
-import Loading from './components/Loading/Loading.jsx';
 
 const AboutPage = lazy(() => import('./pages/AboutPage/AboutPage'));
 const SkillsPage = lazy(() => import('./pages/SkillsPage/SkillsPage'));
@@ -32,7 +31,7 @@ export default class App extends Component {
       <div className="dev-landing-page">
           <Parallax />
           <LandingPage />
-      <Suspense fallback={ <Loading /> } >
+      <Suspense fallback={ <div>....</div>} >
           <AboutPage />
           <SkillsPage />
           <PortfolioPage />
