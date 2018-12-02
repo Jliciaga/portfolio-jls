@@ -1,8 +1,8 @@
 import React from 'react';
-import budget from '../../style/images/Mbudgetlife.webP';
-import games from '../../style/images/Mpopupgames.webP';
-import storm from '../../style/images/Mweather.webP';
-import quest from '../../style/images/Mquest.webP';
+import budget from '../../style/images/budgetlife.webP';
+import games from '../../style/images/popupgames.webP';
+import storm from '../../style/images/weather.webP';
+import quest from '../../style/images/quest.webP';
 
 export default [{
   name: 'BudgetLife',
@@ -39,26 +39,30 @@ export default [{
   render: (
     <div className="project-container">
       <div className="project">
-        <div className="project-content">
-          <div className="project-label">Featured</div>
-          <h4 className="project-title">Pop Up Games</h4>
-          <div className="project-details">
+        <div className="project-content-right">
+          <div className="project-label-right">Featured</div>
+          <h4 className="project-title-right">Pop Up Games</h4>
+          <div className="project-details-right">
             <p>Easily create an event and invite your freinds or make it public, this venue creation makes it easy to get back to the great outdoors with your family or friends</p>
             <p>Create and populate google maps with events or see whats going on around you with this easy to use app</p>
-            <ul>
-              <li>ReactJS</li>
-              <li>NodeJS</li>
-              <li>ExpressJS</li>
-              <li>mySQL</li>
-              <li>Webpack</li>
-            </ul>
-            <ul>
-              <li className="external-link"><a aria-label="github popup games" href="https://github.com/Jliciaga/Pop-Up-Games"><i className="fab fa-github"></i></a></li>
-              <li className="external-link"><a aria-label="website popup games" href="https://pop-up-games.herokuapp.com/"><i className="fas fa-external-link-alt"></i></a></li>
-            </ul>
+            <div className="project-subdetails-right">
+              <ul>
+                <li>ReactJS</li>
+                <li>NodeJS</li>
+                <li>ExpressJS</li>
+                <li>mySQL</li>
+                <li>Webpack</li>
+              </ul>
+              <div className="project-links-right">
+                <ul>
+                  <li className="external-link-right"><a aria-label="github popup games" href="https://github.com/Jliciaga/Pop-Up-Games"><i className="fab fa-github"></i></a></li>
+                  <li className="external-link-right"><a aria-label="website popup games" href="https://pop-up-games.herokuapp.com/"><i className="fas fa-external-link-alt"></i></a></li>
+                </ul>
+              </div>
           </div>
+        </div>
         </div>  
-        <div className="project-img">
+        <div className="project-img-right">
           <img src={ games } alt="" />
         </div>
       </div>
@@ -99,26 +103,30 @@ export default [{
   render: (
     <div className="project-container">
       <div className="project">
-        <div className="project-content">
-          <div className="project-label">Featured</div>
-          <h4 className="project-title">Quest</h4>
-          <div className="project-details">
+        <div className="project-content-right">
+          <div className="project-label-right">Featured</div>
+          <h4 className="project-title-right">Quest</h4>
+          <div className="project-details-right">
             <p>Nothing ventured, nothing gained, explore and discover whats around, get suggestions on what to do tailored to you based on what like and dislike</p>
             <p>Features a easy to use UI system, google maps for easy navigation.. as well as more features to come</p>
-            <ul>
-              <li>ReactJS</li>
-              <li>Redux</li>
-              <li>ExpressJS</li>
-              <li>Passport</li>
-              <li>PostgreQL</li>
-            </ul>
-            <ul>
-              <li className="external-link"><a aria-label="github quest" href="https://github.com/Jliciaga/seekerapp"><i className="fab fa-github"></i></a></li>
-              <li className="external-link"><a aria-label="website quest" href="http://seekerapp.herokuapp.com"><i className="fas fa-external-link-alt"></i></a></li>
-            </ul>
+            <div className="project-subdetails-right">
+              <ul>
+                <li>ReactJS</li>
+                <li>Redux</li>
+                <li>ExpressJS</li>
+                <li>Passport</li>
+                <li>PostgreQL</li>
+              </ul>
+            <div className="project-links-right">
+              <ul>
+                <li className="external-link-right"><a aria-label="github quest" href="https://github.com/Jliciaga/seekerapp"><i className="fab fa-github"></i></a></li>
+                <li className="external-link-right"><a aria-label="website quest" href="http://seekerapp.herokuapp.com"><i className="fas fa-external-link-alt"></i></a></li>
+              </ul>
+            </div>
+            </div>
           </div>
         </div>  
-        <div className="project-img">
+        <div className="project-img-right">
           <img src={ quest } alt="" />
         </div>
       </div>
