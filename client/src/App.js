@@ -1,11 +1,13 @@
-import React, { Component } from 'react';
+import React, { Component, lazy, Suspense } from 'react';
 import Parallax from './components/Background/Parallax';
 import LandingPage from './pages/LandingPage/LandingPage';
-import AboutPage from './pages/AboutPage/AboutPage';
-import SkillsPage from './pages/SkillsPage/SkillsPage';
-import PortfolioPage from './pages/PortfolioPage/PortfolioPage';
-import ContactPage from './pages/ContactPage/ContactPage';
-import Footer from './components/Footer/Footer';
+import Loading from './components/Loading/Loading.jsx';
+
+const AboutPage = lazy(() => import('./pages/AboutPage/AboutPage'));
+const SkillsPage = lazy(() => import('./pages/SkillsPage/SkillsPage'));
+const PortfolioPage = lazy(() => import('./pages/PortfolioPage/PortfolioPage'));
+const ContactPage = lazy(() => import('./pages/ContactPage/ContactPage'));
+const Footer = lazy(() => import('./components/Footer/Footer'));
 
 export default class App extends Component {
   
@@ -30,11 +32,13 @@ export default class App extends Component {
       <div className="dev-landing-page">
           <Parallax />
           <LandingPage />
+      <Suspense fallback={ <Loading /> } >
           <AboutPage />
           <SkillsPage />
           <PortfolioPage />
           <ContactPage />
           <Footer />
+      </Suspense>
       </div>
     );
   }
